@@ -23,7 +23,7 @@ public class SistemadeMenus extends Application{
         abrirArchivo.setOnAction(e -> System.out.println("Archivo abierto."));
         guardarArchivo.setOnAction(e -> System.out.println("Archivo guardado."));
         salirArchivo.setOnAction(e -> {
-            System.out.println("Saliendo de la aplicación.");
+            System.out.println("Saliendo de la aplicaciÃ³n.");
             primaryStage.close();
         });
 
@@ -40,7 +40,7 @@ public class SistemadeMenus extends Application{
 
         MenuItem acercaDe = new MenuItem("Acerca de");
 
-        acercaDe.setOnAction(e -> System.out.println("Sistema de menús en JavaFX."));
+        acercaDe.setOnAction(e -> System.out.println("Sistema de menÃºs en JavaFX."));
 
         menuAyuda.getItems().add(acercaDe);
 
@@ -51,7 +51,7 @@ public class SistemadeMenus extends Application{
 
         Scene scene = new Scene(root, 300, 400);
 
-        primaryStage.setTitle("Ejemplo de Menú en JavaFX");
+        primaryStage.setTitle("Sistemas de Menus JavaFX");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
